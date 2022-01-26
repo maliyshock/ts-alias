@@ -1,0 +1,13 @@
+{
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node", // was not set before, but is the default
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ]
+    }
+  }
+}
